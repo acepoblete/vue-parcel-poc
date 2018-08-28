@@ -1,0 +1,14 @@
+{
+    "presets": ["env"],
+    "plugins": [
+        "transform-vue-jsx", [
+            "module-resolver", {
+                "alias": {
+                    "vue": "vue/dist/vue.esm.js"
+                }
+            }
+        ],
+        "transform-decorators-legacy",
+        "transform-class-properties"
+    ]
+}
